@@ -1,0 +1,62 @@
+body {
+    margin: 50px;
+    background-color: whitesmoke;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    display: block;
+}
+
+button {
+    display: block;
+    font-size: 16px;
+    outline: none;
+}
+
+input {
+    width: 180px;
+    font-size: 16px;
+}
+
+#location {
+    display: inline;
+    margin-left: 10px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+}
+
+.title {
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0px 10px;
+}
+
+.weather {
+    text-align: center;
+}
+
+#fallback {
+    color: red;
+}
